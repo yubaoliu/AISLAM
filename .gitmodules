@@ -1,0 +1,3 @@
+[submodule "mastering_ros"]
+	path = mastering_ros
+	url = https://github.com/qboticslabs/mastering_ros.git

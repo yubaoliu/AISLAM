@@ -22,7 +22,7 @@ int main( int argc, char** argv )
 {
     if (argc != 3)
     {
-        cout<<"Usage: pcd2colorOctomap <input_file> <output_file>"<<endl;
+        cout<<"Usage: pcd2colorOctomap <input_file: data/sample.pcd> <output_file: data/sample.ot>"<<endl;
         return -1;
     }
 
@@ -46,6 +46,7 @@ int main( int argc, char** argv )
     // 设置颜色
     for (auto p:cloud.points)
     {
+      //https://octomap.github.io/octomap/doc/classoctomap_1_1ColorOcTree.html#aaea6247588477f3d3c709c18ba93521b
         tree.integrateNodeColor( p.x, p.y, p.z, p.r, p.g, p.b );
     }
 

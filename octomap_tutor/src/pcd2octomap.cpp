@@ -3,6 +3,10 @@
 	> Author: Gao Xiang
 	> Mail: gaoxiang12@mails.tsinghua.edu.cn
 	> Created Time: 2015年12月12日 星期六 15时51分45秒
+
+> modified by Yubao
+> Modified date: 2019-04-27
+> Octomap API: https://octomap.github.io/octomap/doc/index.html
  ************************************************************************/
 
 #include <iostream>
@@ -20,7 +24,7 @@ int main( int argc, char** argv )
 {
     if (argc != 3)
     {
-        cout<<"Usage: pcd2octomap <input_file> <output_file>"<<endl;
+        cout<<"Usage: pcd2octomap <input_file: data/sample.pcd> <output_file: data/sample.bt>"<<endl;
         return -1;
     }
 

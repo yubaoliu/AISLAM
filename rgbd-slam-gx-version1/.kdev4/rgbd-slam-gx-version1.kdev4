@@ -1,0 +1,23 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00*\x00r\x00g\x00b\x00d\x00-\x00s\x00l\x00a\x00m\x00-\x00g\x00x\x00-\x00v\x00e\x00r\x00s\x00i\x00o\x00n\x001)
+
+[CMake]
+Build Directory Count=1
+Current Build Directory Index=0
+ProjectRootRelative=./
+
+[CMake][CMake Build Directory 0]
+Build Directory Path=file:///home/yubao/GitProject/AISLAM/rgbd-slam-gx-version1/build
+Build Type=
+CMake Binary=file:///home/yubao/local/cmake-3.14.0-rc3-Linux-x86_64/bin/cmake
+Environment Profile=
+Extra Arguments=
+Install Directory=file:///usr/local
+
+[Defines And Includes][Compiler]
+Name=GCC
+Path=gcc
+Type=GCC
+
+[Project]
+VersionControlSupport=kdevgit

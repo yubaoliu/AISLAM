@@ -23,12 +23,12 @@
 # ===================================================================================
 
  
-set(OCTOMAP_INCLUDE_DIRS "/home/zero/Documents/code/octomap/octomap/include")
-set(OCTOMAP_LIBRARY_DIRS "/home/zero/Documents/code/octomap/lib")
+set(OCTOMAP_INCLUDE_DIRS "/home/yubao/Project/octomap/octomap/include")
+set(OCTOMAP_LIBRARY_DIRS "/home/yubao/Project/octomap/lib")
  
 
 # Set library names as absolute paths:
 set(OCTOMAP_LIBRARIES
-  "/home/zero/Documents/code/octomap/lib/liboctomap.so"
-  "/home/zero/Documents/code/octomap/lib/liboctomath.so"
+  "/home/yubao/Project/octomap/lib/liboctomap.so"
+  "/home/yubao/Project/octomap/lib/liboctomath.so"
 )
